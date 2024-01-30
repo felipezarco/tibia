@@ -1,5 +1,6 @@
 # Install Tibia with Desktop Menu Icon (Linux Ubuntu)
 
+````shell
 APP_DIR=~
 wget https://static.tibia.com/download/tibia.x64.tar.gz
 tar -xvf tibia.x64.tar.gz
@@ -18,3 +19,4 @@ Path=${APP_DIR}/
 EOT
 
 echo "Happy Play... =)"
+````
