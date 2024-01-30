@@ -1,7 +1,7 @@
 # Install Tibia with Desktop Menu Icon (Linux Ubuntu)
 
 ````shell
-APP_DIR=~
+APP_DIR=~/tibia
 wget https://static.tibia.com/download/tibia.x64.tar.gz
 tar -xvf tibia.x64.tar.gz
 mv Tibia ~/tibia
