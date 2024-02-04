@@ -1,8 +1,11 @@
 ## Install Tibia with Desktop Menu Icon (Linux Ubuntu)
 
-**INSTRUCTIONS**: 📋 Copy and paste below code in your terminal. 
+**INSTRUCTIONS**: 📋 Copy and paste below code in your terminal.
+
 What the code does❓ 
+
 Download tibia from official website, extract it and create a menu item.
+
 ````shell
 cd ~ # Go to home directory
 APP_DIR=~/tibia # Set variable APP_DIR to home/tibia
@@ -28,8 +31,11 @@ echo "Happy Play... =)"
 
 ## Download Minimap with Markers (Optional)
 **INSTRUCTIONS**: 📋 Copy and paste below code in your terminal.
+
 What the code does❓ 
+
 Downloads latest minimap from `tibiamaps.io`, extract it to a temporary folder, moves to your tibia minimap and deletes temporary folder.
+
 ````shell
 mkdir ~/tmp-minimap-with-markers
 cd ~/tmp-minimap
