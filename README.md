@@ -1,5 +1,7 @@
 # Install Tibia with Desktop Menu Icon (Linux Ubuntu)
 
+**INSTRUCTIONS**: 📋 Copy and paste below code in your terminal. 
+
 ````shell
 cd ~ # Go to home directory
 APP_DIR=~/tibia # Set variable APP_DIR to home/tibia
