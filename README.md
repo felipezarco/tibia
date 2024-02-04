@@ -8,8 +8,8 @@ tar -xvf tibia.x64.tar.gz # uncompress tar file into home folder
 mv Tibia ~/tibia # rename it to tibia lowercase
 rm tibia.x64.tar.gz # remove compressed file
 
-echo "Adding menu desktop icon" 
-cat << EOT | sudo tee /usr/share/applications/tibia.desktop > /dev/null # define desktop.file to create a menu shortcut
+# Add .desktop file to create an menu tibia app icon
+cat << EOT | sudo tee /usr/share/applications/tibia.desktop > /dev/null 
 [Desktop Entry]
 Type=Application
 Name=Tibia
